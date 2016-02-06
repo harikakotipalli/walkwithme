@@ -29,6 +29,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+    margin-top: 100px;
+}
+/* HOME PAGE SECTION */
+#homePg {}
 	line-height: 1;
 }
 ol, ul {
@@ -51,13 +55,16 @@ table {
 .logo {}
 .logo h1 { 
     text-align: center;
-    margin-top: 100px;
 }
-/* HOME PAGE SECTION */
-#homePg {}
 /*SIGN IN SECTION*/
 #signIn {}
 /*SIGN UP SECTION*/
 #signUp {}
 /* APP SECTION*/
 #app {}
+
+/* OTHER */
+
+.bordered {
+	border: 2px solid;
+}
