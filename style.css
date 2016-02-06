@@ -30,8 +30,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     margin-top: 100px;
-    background-image: url("images/background.jpg");
+    /*background-image: url("images/background.jpg");*/
     background-size: cover;
+    color
 }
 /* HOME PAGE SECTION */
 #homePg {
