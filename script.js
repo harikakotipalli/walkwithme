@@ -1,10 +1,14 @@
 $(document).ready(function () {
-	var signInBtn = $(".signInBtn");
-	var signUpBtn = $(".signUnBtn");
-	var signInPg = $(".signIn");
+	var signInBtn = $("#signInBtn");
+	var signUpBtn = $("#signUnBtn");
+	// Pages
+	var homePg = $("#homePg");
+	var signUpPg = $("#signUp");
+	var signInPg = $("#signIn");
+	var signInPg = $("#signIn");
 
 	signInBtn.on('click', function () {
-		$(this).hide(300);
+		homePg.hide(300);
 		signInPg.show(800);
 	});
 });
