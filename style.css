@@ -61,3 +61,9 @@ table {
 #signUp {}
 /* APP SECTION*/
 #app {}
+
+/* OTHER */
+
+.bordered {
+	border: 2px solid;
+}
