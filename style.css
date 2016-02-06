@@ -68,3 +68,4 @@ table {
 .bordered {
 	border: 2px solid;
 }
+.empty { height: 300px ;}
