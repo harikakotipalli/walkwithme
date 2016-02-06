@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     margin-top: 100px;
+    background-image: url("images/background.jpg");
 }
 /* HOME PAGE SECTION */
 #homePg {}
