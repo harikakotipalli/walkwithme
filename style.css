@@ -71,12 +71,15 @@ table {
 /* OTHER */
 
 .btn {
-	display: block;
+    display: block;
     font-size: 1.1em;
     font-weight: bold;
     text-transform: uppercase;
-    padding: 10px 15px;
     margin: 20px auto;
+    border-radius: 0;
+    background: black;
+    padding: 10px 45px;
+    color: white;
 }
 .bordered {
 	border: 2px solid;
