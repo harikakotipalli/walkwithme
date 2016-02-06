@@ -1,9 +1,9 @@
 $(document).ready(function () {
-	var signInBtt = $(".signInBtt");
-	var signUpBtt = $(".signUnBtt");
+	var signInBtn = $(".signInBtn");
+	var signUpBtn = $(".signUnBtn");
 	var signInPg = $(".signIn");
 
-	signInBtt.on('click', function () {
+	signInBtn.on('click', function () {
 		$(this).hide(300);
 		signInPg.show(800);
 	});
