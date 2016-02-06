@@ -31,9 +31,10 @@ footer, header, hgroup, menu, nav, section {
 body {
     margin-top: 100px;
     background-image: url("images/background.jpg");
+    background-size: cover;
 }
 /* HOME PAGE SECTION */
-#homePg {}
+#homePg {
 	line-height: 1;
 }
 ol, ul {
@@ -56,6 +57,9 @@ table {
 .logo {}
 .logo h1 { 
     text-align: center;
+    font-size: 38px;
+    font-family: sans-serif;
+    color: white;
 }
 /*SIGN IN SECTION*/
 #signIn {}
