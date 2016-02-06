@@ -60,7 +60,7 @@ table {
     text-align: center;
     font-size: 38px;
     font-family: sans-serif;
-    color: white;
+    /* color: white; */
 }
 /*SIGN IN SECTION*/
 #signIn {}
@@ -71,7 +71,17 @@ table {
 
 /* OTHER */
 
+.btt {
+	display: block;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    margin: 20px auto;
+}
 .bordered {
 	border: 2px solid;
 }
 .empty { height: 300px ;}
+
+.hide { display: none; }
