@@ -30,9 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     margin-top: 100px;
-    /*background-image: url("images/background.jpg");*/
+    background-image: url("images/background.jpg");
     background-size: cover;
-    color
 }
 /* HOME PAGE SECTION */
 #homePg {
@@ -60,7 +59,7 @@ table {
     text-align: center;
     font-size: 38px;
     font-family: sans-serif;
-    /* color: white; */
+    color: white;
 }
 /*SIGN IN SECTION*/
 #signIn {}
