@@ -7,7 +7,8 @@ $(document).ready(function(){
 	var form = $("#chat");
 	var textField = $("#textField");
 
-	$('#send').on('click', function() {
+	$('#send').on('click', function(e) {
+		e.preventDefault();
 		display.append($('#textField').val());
 		display[0].scrollTop = display[0].scrollHeight;
 	});
