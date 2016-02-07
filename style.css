@@ -78,6 +78,17 @@ table {
 #signUp {}
 /* APP SECTION*/
 #app {}
+#app select {
+    width: 100%;
+    box-shadow: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    color: #4D4040;
+    border-radius: 0;
+    font-size: 24px;
+}
+}
 
 /* OTHER */
 

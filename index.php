@@ -38,6 +38,7 @@
 	</form>
 </section>
 <section id="app" class="col-md-6 col-md-offset-3 no-display">
+
 		<select id="source" style="width: 200px">
 			<option value = "a" selected>*Location</option>
 			<option value = "a">Bass Hall</option>
