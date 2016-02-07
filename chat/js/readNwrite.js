@@ -7,6 +7,10 @@ $(document).ready(function(){
 	var form = $("#chat");
 	var textField = $("#textField");
 
+	$('#send').on('click', function() {
+		display.append($('#textField').val());
+		display[0].scrollTop = display[0].scrollHeight;
+	});
 	
 	$('textarea').on( 'keyup', function (e){
 		e.preventDefault();
