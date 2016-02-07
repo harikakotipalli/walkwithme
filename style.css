@@ -59,13 +59,13 @@ table {
     text-align: center;
     font-size: 44px;
     color: white;
-    font-family: Segoe UI;
+    font-family: Tahoma;
 }
 /*SIGN IN SECTION*/
 #signIn {}
 #signIn form {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 #signIn form input {
     width: 250px;
@@ -86,7 +86,7 @@ table {
     font-size: 1.1em;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 20px auto;
+    margin: 30px auto;
     border-radius: 0;
     background: black;
     padding: 10px 45px;
