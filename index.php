@@ -9,8 +9,9 @@
 	<!-- STYLE.CSS -->
 	<link rel="stylesheet" type="text/css" href="style.css"/>
 	<!-- JQUERY -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 	<script src="script.js"></script>
+	<script type="text/javascript" src="js/myFunc.js"></script>
 </head>
 <body>
 <div class="logo col-md-6 col-md-offset-3"><h1>Walk With Me</h1></div> <!-- Hide logo once logged in -->
@@ -36,10 +37,11 @@
 		<br>
 	</form>
 </section>
-<section id="app"  class="col-md-6 col-md-offset-3 no-display">
+<section id="app" class="col-md-6 col-md-offset-3 no-display">
 
 	<div class="destinationTab">
-		<select id="destination" style="width: 200px">
+		<select id="source" style="width: 200px">
+			<option value = "a">*Location</option>
 			<option value = "a">A</option>
 			<option value = "b">B</option>
 			<option value = "c">C</option>
@@ -47,24 +49,17 @@
 			<option value = "e">E</option>
 			<option value = "c">C</option>
 		</select>
-		<select id="source" style="width: 200px">
+		<select id="destination" style="width: 200px">
+			<option value = "a">*Destination</option>
 			<option value = "a">A</option>
 			<option value = "b">B</option>
 			<option value = "c">C</option>
 			<option value = "d">D</option>
-
 		</select>
-	</div>
 
-	<div class="sourcetab">
-		<select id="source">
-			<option value = "a">A</option>
-			<option value = "b">biubiubbiuB</option>
-			<option value = "c">C</option>
-			<option value = "d">D</option>
-		</select>
-	</div>
-
+	<button id="sdSubmit">Submit</button>
+    
+	
 </section>
 </body>
 </html>
