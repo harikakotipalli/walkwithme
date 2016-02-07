@@ -168,8 +168,12 @@ input[type=submit] {
     z-index: 11;
 }
 .sent {
-    margin-right: 5px;
-    width: 100%;
+    width: 50%;
+    background-color: rgba(255, 249, 0, 0.54);
+    padding: 6px;
+    margin: 4px 9px;
+    float: right;
+    margin-right: 20px;
 }
 .sent h1 {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57);
