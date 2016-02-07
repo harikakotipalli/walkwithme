@@ -1,0 +1,224 @@
+/************************
+ LIVE CSS STYLE SHEET
+************************/
+body{
+    margin:0; 
+    background-color:#FDCF33;
+    font-size:15px; 
+    line-height:1.5;
+    font-family: 'Pathway Gothic One', sans-serif, arial;
+    text-rendering: optimizeLegibility;
+    overflow-y:hidden;
+    }
+html,body,div,span,img,ol,ul,li,a,p,h1,h2,h3,h4,h5,h6,
+option,legend,label,table,th,td,tr,article,aside,fig,
+caption,figure,footer,header,hgroup,mark,nav,section,
+time,audio,video{margin:0;padding:0;border:0;outline:0}
+ol,ul {list-style-type:none}
+table {border-collapse:collapse}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+#countdown {
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 24px;
+    font-family: monospace;
+    font-weight: 900;
+    background-color: white;
+    z-index: 10;
+}
+#online {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.display {
+    position: fixed;
+    width: 101.3%;
+    max-height: 90%;
+    height: auto;
+    bottom: 54px;
+    text-align: center;     
+    overflow: scroll;
+    overflow-x:hidden;
+    /* overflow-y:hidden; */
+}
+.forms {
+    width: 100%; /*CHANGE LATER*/
+    text-align: center;
+}
+.forms .login {
+    background-color: #7B95C9;
+}
+.forms .chat {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+#button {
+    display: inline-block;
+    background: #ddd;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+.check {
+    display: inline-block;
+    margin-right: 10px;
+}
+.login h3 {
+    FONT-FAMILY: monospace;
+    FONT-SIZE: 50PX;
+    color: white;
+}
+.iAmaBOX, .lookingForBOX { height: 200px; margin-top: 30px;}
+.iAmaBOX h1, .lookingForBOX h1 {    
+    font-size: 68px;
+    margin-bottom: 35px;
+    font-family: monospace;
+}
+.lookingForBOX h1 { font-size: 34px; }
+.iAm, .lookingFor {
+    position: absolute;          margin-top: 50px;               
+    z-index: -1;
+
+}
+
+.iAm + label, .lookingFor + label {
+    padding: 25px;
+    border: 2px solid rgb(158, 158, 158);
+    border-radius: 5px;
+    background-color: #FDCF33;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 25px;
+} 
+.iAm:checked + label, .lookingFor:checked + label {
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.33);
+    color: #2E1EA9;
+} 
+.loginName {
+    width: 240px;
+    height: 50px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+input[type=submit] {
+    width: 265px;
+    padding: 15px 5px; 
+    background: #234297; 
+    color: white;
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px; 
+    margin: 25px;
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.chatSend {
+    width: 60px !important;
+    padding: 5px 0px 5px 0px!important;
+    font-size: 18px !important;
+    float: right;
+    margin-top: 15px !important;
+}
+.chatField {
+    position: fixed;
+    min-width: 80%;
+    max-height: 100px;
+    border: none;
+    bottom: -5px;
+    height: 43px;
+    left: 0;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    padding-top: 15px;
+    resize: none;
+    margin-left: -10px;
+}
+.chatField:focus {
+    border: none;
+}
+.logout {
+    position: absolute;
+    z-index: 11;
+}
+.sent {
+    margin-right: 5px;
+    width: 100%;
+}
+.sent h1 {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57);
+    border-radius: 15px 15px 0px 15px;
+    margin-left: 40%;
+    background-color: #7B95C9;
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    overflow: hidden;
+    padding-right: 25px;
+    margin-right: 5px;
+    float: right;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.received {
+    margin-left: 5px;
+}
+.received h1 {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57);
+    border-radius: 15px 15px 15px 0px;
+    max-width: 60%;
+    padding: 10px;
+    background-color: #742F8E;
+    color: white;
+    float: left;
+    font-size: 18px;
+    margin-right: 40%;
+    margin-bottom: 10px;
+    text-align: left;
+}
+#send {
+    width: 20%;
+    height: 55px;
+    background-color: white;
+    border: none;
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    color: #7B95C9;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+textarea:focus, input:focus{
+    outline: 0;
+}
+*:focus {
+    outline: 0;
+}
