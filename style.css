@@ -30,7 +30,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     background-image: url("images/background.jpg");
-    background-size: cover;
     font-family: sans-serif;
 }
 /* HOME PAGE SECTION */
