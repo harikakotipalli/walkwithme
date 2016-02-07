@@ -39,7 +39,7 @@
 </section>
 <section id="app" class="col-md-6 col-md-offset-3 no-display">
 
-		<select id="source" style="width: 200px">
+		<select id="source">
 			<option value = "a" selected>*Location</option>
 			<option value = "a">Bass Hall</option>
 			<option value = "b">Burton Hall</option>
@@ -52,7 +52,7 @@
 			<option value = "c">Wilder House</option>
 			<option value = "c">Wilson House</option>
 		</select>
-		<select id="destination" style="width: 200px">
+		<select id="destination">
 			<option value = "a" selected>*Destination</option>
 			<option value = "a">Bass Hall</option>
 			<option value = "b">Burton Hall</option>
@@ -66,7 +66,7 @@
 			<option value = "c">Wilson House</option>
 		</select>
 
-	<button id="sdSubmit">Submit</button>
+	<button id="sdSubmit" class="btn">Create</button>
     
 	
 </section>
