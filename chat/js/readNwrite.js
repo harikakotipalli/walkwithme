@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 	$('#send').on('click', function(e) {
 		e.preventDefault();
-		display.append($('#textField').val());
+		display.append("<div class='sent'" + $('#textField').val() + "></div>");
 		display[0].scrollTop = display[0].scrollHeight;
 	});
 	
@@ -18,7 +18,7 @@ $(document).ready(function(){
 	  	e = e || event;
 	  	if (e.keyCode === 13 && !e.ctrlKey) {
 			$.ajax({
-				url: 'sub/write.php',
+				url: 'sub/twrie.php',
 				type: 'POST',
 				cache: true,
 				data: form.serialize(),
