@@ -9,6 +9,7 @@ body{
     font-family: 'Pathway Gothic One', sans-serif, arial;
     text-rendering: optimizeLegibility;
     overflow-y:hidden;
+    background-image: url('/../images/background.jpg');
     }
 html,body,div,span,img,ol,ul,li,a,p,h1,h2,h3,h4,h5,h6,
 option,legend,label,table,th,td,tr,article,aside,fig,
