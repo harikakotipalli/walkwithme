@@ -63,6 +63,14 @@ table {
 }
 /*SIGN IN SECTION*/
 #signIn {}
+#signIn form {
+    text-align: center;
+}
+#signIn form input {
+	padding: 12px 25px;
+    border: 2px solid rgba(0,0,0,.1) !important;
+    font-size: 14px !important;
+}
 /*SIGN UP SECTION*/
 #signUp {}
 /* APP SECTION*/
