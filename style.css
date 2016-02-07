@@ -127,3 +127,12 @@ table {
     background-color: white;
     color: darkslateblue;
 }
+.walk {
+    width: 400px;
+    border: 2px solid white;
+    margin: 15px auto;
+    border-radius: 30px;
+    text-align: center;
+    background-color: white;
+    color: darkslateblue;
+}
