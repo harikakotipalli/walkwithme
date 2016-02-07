@@ -67,6 +67,8 @@ table {
     text-align: center;
 }
 #signIn form input {
+    width: 250px;
+    margin: 10px;
 	padding: 12px 25px;
     border: 2px solid rgba(0,0,0,.1) !important;
     font-size: 14px !important;
