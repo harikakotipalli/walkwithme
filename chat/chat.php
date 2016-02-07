@@ -15,7 +15,7 @@
 	<script src="js/readNwrite.js"></script>
 
 </head>
-<body>
+<body style="background-img:url('/../images/background.jpg')">
 	<div id="countdown"><p></p></div>
 	<div class="display"></div>
 	<a class="logout" href="../app.php">GO BACK</a>

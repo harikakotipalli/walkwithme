@@ -12,7 +12,7 @@ $(document).ready(function(){
 		display[0].scrollTop = display[0].scrollHeight;
 	});
 	
-	$('textarea').on( 'keyup', function (e){
+	/*$('textarea').on( 'keyup', function (e){
 		e.preventDefault();
 	  	e = e || event;
 	  	if (e.keyCode === 13 && !e.ctrlKey) {
@@ -38,7 +38,7 @@ $(document).ready(function(){
  	});
 
 	/***************** READ.PHP *****************/
-
+ /*
 	setInterval(function(){
 			$.ajax({
 		        async: true,
@@ -55,5 +55,5 @@ $(document).ready(function(){
 		    });
 		},1000
 	);
-
+*/
 });
