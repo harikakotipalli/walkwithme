@@ -22,7 +22,7 @@
 	<div class="forms">
 		<div class="chat">
 			<form id="chat" method="post">
-				<textarea class="chatField" id="textField" type="text" name="message" placeholder="Say hi to <?php echo $_SESSION["soulmate"]; ?>" required = "true"></textarea> 
+				<textarea class="chatField" id="textField" type="text" name="message" placeholder="Say hi to Harika" required = "true"></textarea> 
 				<button id="send">Send</button>
 			</form>
 		</div>
