@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 	$('#send').on('click', function(e) {
 		e.preventDefault();
-		display.append("<div class='sent'" + $('#textField').val() + "></div>");
+		display.append("<div class='sent'> " + $('#textField').val() + " </div>");
 		display[0].scrollTop = display[0].scrollHeight;
 	});
 	
