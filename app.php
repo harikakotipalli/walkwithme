@@ -14,7 +14,7 @@
 <body>
 <div class="logo col-md-6 col-md-offset-3"><h1>Walk With Me</h1></div> <!-- Hide logo once logged in -->
 
-<section id="app" class="col-md-6 col-md-offset-3 no-display">
+<section id="app" class="col-md-6 col-md-offset-3">
     <form id="createform" action="create.php" method="post">
 
 		<!-- LOCATION -->
