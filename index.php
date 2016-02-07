@@ -38,23 +38,31 @@
 	</form>
 </section>
 <section id="app" class="col-md-6 col-md-offset-3 no-display">
-
-	<div class="destinationTab">
 		<select id="source" style="width: 200px">
-			<option value = "a">*Location</option>
-			<option value = "a">A</option>
-			<option value = "b">B</option>
-			<option value = "c">C</option>
-			<option value = "d">D</option>
-			<option value = "e">E</option>
-			<option value = "c">C</option>
+			<option value = "a" selected>*Location</option>
+			<option value = "a">Bass Hall</option>
+			<option value = "b">Burton Hall</option>
+			<option value = "c">Emerson Hall</option>
+			<option value = "d">Ford Hall</option>
+			<option value = "e">King House</option>
+			<option value = "c">McConnell Hall</option>
+			<option value = "c">Sabin-Reed Hall</option>
+			<option value = "c">Scales House</option>
+			<option value = "c">Wilder House</option>
+			<option value = "c">Wilson House</option>
 		</select>
 		<select id="destination" style="width: 200px">
-			<option value = "a">*Destination</option>
-			<option value = "a">A</option>
-			<option value = "b">B</option>
-			<option value = "c">C</option>
-			<option value = "d">D</option>
+			<option value = "a" selected>*Destination</option>
+			<option value = "a">Bass Hall</option>
+			<option value = "b">Burton Hall</option>
+			<option value = "c">Emerson Hall</option>
+			<option value = "d">Ford Hall</option>
+			<option value = "e">King House</option>
+			<option value = "c">McConnell Hall</option>
+			<option value = "c">Sabin-Reed Hall</option>
+			<option value = "c">Scales House</option>
+			<option value = "c">Wilder House</option>
+			<option value = "c">Wilson House</option>
 		</select>
 
 	<button id="sdSubmit">Submit</button>
