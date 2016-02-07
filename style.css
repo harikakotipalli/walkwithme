@@ -32,6 +32,7 @@ body {
     margin-top: 100px;
     background-image: url("images/background.jpg");
     background-size: cover;
+    font-family: sans-serif;
 }
 /* HOME PAGE SECTION */
 #homePg {
@@ -58,7 +59,6 @@ table {
 .logo h1 { 
     text-align: center;
     font-size: 38px;
-    font-family: sans-serif;
     color: white;
 }
 /*SIGN IN SECTION*/
